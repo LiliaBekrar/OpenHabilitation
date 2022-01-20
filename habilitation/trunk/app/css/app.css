@@ -1,0 +1,46 @@
+/**
+ * Feuille de style CSS spécifique à l'applicatif, ce script est destiné à être
+ * appelé en dernier dans la pile des fichiers CSS.
+ *
+ * @package openmairie_exemple
+ * @version SVN : $Id: app.css 2202 2013-03-28 17:30:48Z fmichon $
+ */
+
+#logo span.logo { width: 211px; height: 50px; background-image: url("../img/openHabilitation.png"); background-repeat: no-repeat; display: block; text-indent: -9999px; }
+/* suivant etprecedent*/
+.csv-25 { background-image: url("../../app/img/csv-25x25.png"); }
+
+/* Affichage de la recherche avancée */
+#adv-search-adv-fields .field-type-select,
+#adv-search-adv-fields .field-type-text,
+#adv-search-adv-fields .bloc.intervaldate {
+    float:left;
+    width: 210px;
+}
+#adv-search-adv-fields .field-type-select div.form-libelle,
+#adv-search-adv-fields .field-type-text div.form-libelle,
+#adv-search-adv-fields .bloc.intervaldate div.bloc-titre {
+    display: block;
+    font-weight: bold;
+    padding: 0;
+}
+#adv-search-adv-fields .field-type-select div.form-content,
+#adv-search-adv-fields .field-type-text div.form-content {
+    display: block;
+    padding: 3px;
+    height: 20px;
+}
+#adv-search-adv-fields .field-type-select div.form-content select,
+#adv-search-adv-fields .field-type-text div.form-content input {
+    width:90%;
+}
+#adv-search-adv-fields .bloc.intervaldate .field-type-date {
+    float:none;
+    padding: 3px;
+}
+#adv-search-adv-fields .bloc.intervaldate .field-type-date div.form-libelle {
+    display: table-cell;
+}
+#adv-search-adv-fields .bloc.intervaldate .field-type-date div.form-content {
+    height: 20px;
+}

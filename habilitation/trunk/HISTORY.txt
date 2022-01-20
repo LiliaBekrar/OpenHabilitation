@@ -1,0 +1,18 @@
+openhabilitation
+
+
+* correction bug recherche sate habilitation dans agent_habilitation.inc.php 
+  fr 13/08/2021
+
+* correction de bug fr-13/06/2019 
+- agent habilitation + evenement = 2 fois observation -> changer nom car
+  pb script js pour html
+
+- pb de valorisation date_validite en form agent_habilitation
+		echo "<script  type='text/javascript'>
+		date_validite_habilitation.value = '01/01/2018';
+		alert(date_validite_habilitation.value)</script>";	 
+
+* utilisation de la table regle fr-27/05/2019
+	suivant age
+	suivant formation initiale ou recyclage
