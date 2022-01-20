@@ -39,7 +39,7 @@ suivante : contact@openmairie.org !
 
 Les sources et le téléchargement du projet sont sur la forge de l'ADULLACT au lien suivant :
 
-http://adullact.net/projects/openhabilitation/
+https://adullact.net/projects/openhabilitation/
 
 UML
 ===
